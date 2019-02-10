@@ -1,0 +1,72 @@
+body {
+  background-color: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #D11E1E 2px solid;
+  opacity: 0.8; }
+  .navbar li {
+    margin-right: 1.5rem; }
+  .navbar-brand {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 1.8rem; }
+
+#home-section {
+  background: url(../img/home.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh; }
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); }
+  #home-section .home-inner {
+    padding-top: 12.5rem; }
+  #home-section .card-form {
+    opacity: 0.8;
+    background-color: #D11E1E; }
+  #home-section .fas {
+    color: #D11E1E;
+    background-color: #fff;
+    padding: .7rem;
+    border-radius: 1rem; }
+
+#explore-head-section,
+#create-head-section,
+#share-head-section {
+  padding-top: 4rem;
+  min-height: 50vh; }
+  #explore-head-section .lead,
+  #create-head-section .lead,
+  #share-head-section .lead {
+    padding: 0 5rem;
+    margin-top: 1rem; }
+  #explore-head-section .btn,
+  #create-head-section .btn,
+  #share-head-section .btn {
+    margin-top: 1rem; }
+
+#explore-section .fas,
+#explore-section #share-section .fas {
+  background-color: #333;
+  color: #fff;
+  padding: .7rem;
+  border-radius: 1rem; }
+
+#create-head-section,
+#share-head-section {
+  background-color: #D11E1E; }
+
+#create-section .fas {
+  background-color: #fff;
+  color: #333;
+  padding: .7rem;
+  border-radius: 1rem; }
+
+#main-footer h3 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 2rem; }

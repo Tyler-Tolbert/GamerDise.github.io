@@ -1,0 +1,98 @@
+// HOME SECTION
+
+#home-section {
+    background: url(../img/home.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+    & .dark-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    & .home-inner {
+        padding-top: 12.5rem;
+    }
+
+    & .card-form {
+        opacity: 0.8;
+        background-color: $color-primary-light;
+    }
+
+    & .fas {
+        color: $color-primary-light;
+        background-color: $color-white;
+        padding: .7rem;
+        border-radius: 1rem;
+    }
+}
+
+
+//EXPLORE HEAD
+
+#explore-head-section,
+#create-head-section,
+#share-head-section {
+    
+    padding-top: 4rem;
+    min-height: 50vh;
+
+    & .lead {
+        padding: 0 5rem;
+        margin-top: 1rem;
+    }
+
+    & .btn {
+        margin-top: 1rem;
+    }
+}
+
+
+//EXPLORE SECTION
+
+#explore-section {
+
+    & .fas,
+    #share-section .fas {
+        background-color: $color-grey-dark;
+        color: $color-white;
+        padding: .7rem;
+        border-radius: 1rem;
+    }
+}
+
+
+//CREATE HEAD
+
+#create-head-section,
+#share-head-section {
+    background-color: $color-primary-light;
+
+}
+
+
+//CREATE SECTION
+
+#create-section .fas {
+    background-color: $color-white;
+    color: $color-grey-dark;
+    padding: .7rem;
+    border-radius: 1rem;
+}
+
+//FOOTER
+
+#main-footer {
+    
+    & h3 {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        font-size: 2rem;
+    }
+}
+

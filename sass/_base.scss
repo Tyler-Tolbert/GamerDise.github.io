@@ -1,0 +1,18 @@
+body {
+    background-color: $color-grey-dark;
+    color: $color-white;
+}
+
+.navbar {
+    border-bottom: $color-primary-light 2px solid;
+    opacity: 0.8;
+    
+    & li {
+        margin-right: 1.5rem;
+    }
+    
+    &-brand  {
+        font-family: 'ZCOOL KuaiLe', cursive;
+        font-size: 1.8rem;
+    }
+}
